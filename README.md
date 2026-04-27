@@ -1,33 +1,30 @@
 # 🚀 AIO VPN Decoder
 
-**AIO VPN Decoder** is a Telegram-based tool designed to decrypt and
-analyze various VPN configuration formats used across multiple tunneling
-applications.
+**AIO VPN Decoder** is a Telegram-based VPN config decoder bot that
+helps users easily decrypt and view configurations from multiple
+tunneling applications.
 
-Built for flexibility and extensibility, this project supports a wide
-range of encrypted config formats.
+Simply send a supported file or link to the bot, and it will
+automatically decode it for you.
+
+------------------------------------------------------------------------
+
+## 🤖 Telegram Bot
+
+👉 https://t.me/ScriptoolzDecrypt_bot
+
+-   Send config files directly for instant decoding
+-   Supports group usage
+-   Fast and automated processing
 
 ------------------------------------------------------------------------
 
 ## ✨ Features
 
--   🔓 Decrypt multiple VPN config formats
--   🤖 Telegram bot integration
--   📦 Supports many popular VPN tools
--   ⚡ Fast and simple usage
-
-------------------------------------------------------------------------
-
-## 🤖 Usage (Telegram Bot)
-
-Send a supported config file or format to the bot, and it will decrypt
-it automatically.
-
-You can also add the bot to your group to decode files directly in
-chats.
-
-Use /formats to view supported formats\
-Use /start to view the welcome message
+-   🔓 Decode multiple VPN config formats
+-   🤖 Fully automated Telegram bot
+-   ⚡ Fast and easy to use
+-   📦 Wide format compatibility
 
 ------------------------------------------------------------------------
 
