@@ -1,11 +1,11 @@
 # 🚀 AIO VPN Decoder
 
 **AIO VPN Decoder** is a Telegram-based VPN config decoder bot that
-helps users easily decrypt and view configurations from multiple
-tunneling applications.
+allows users to decrypt and view configurations from multiple VPN
+tunneling apps.
 
-Simply send a supported file or link to the bot, and it will
-automatically decode it for you.
+Simply send a supported file or link to the bot and get instant decoded
+output.
 
 ------------------------------------------------------------------------
 
@@ -13,18 +13,18 @@ automatically decode it for you.
 
 👉 https://t.me/ScriptoolzDecrypt_bot
 
--   Send config files directly for instant decoding
--   Supports group usage
--   Fast and automated processing
+-   Send config files to decode
+-   Works in groups
+-   Fast and automatic
 
 ------------------------------------------------------------------------
 
 ## ✨ Features
 
--   🔓 Decode multiple VPN config formats
--   🤖 Fully automated Telegram bot
--   ⚡ Fast and easy to use
--   📦 Wide format compatibility
+-   Decrypt multiple VPN config formats\
+-   Fully automated Telegram bot\
+-   Fast and easy to use\
+-   Wide format compatibility
 
 ------------------------------------------------------------------------
 
@@ -48,6 +48,8 @@ Send a file with one of these extensions or prefixes:
 -   LINKLAYER: .lnk\
 -   MINA: .mina\
 -   SSC: .ssc (ssc://)
+
+More...
 
 ------------------------------------------------------------------------
 
@@ -79,6 +81,8 @@ Send a file with one of these extensions or prefixes:
 .wolf (wolf://)\
 .mmt (mmt://)
 
+More...
+
 ------------------------------------------------------------------------
 
 #### 🔵 Renz VPNs
@@ -91,6 +95,8 @@ Send a file with one of these extensions or prefixes:
 .osp (osp://, osptunnel://)\
 .bshield (bshield://, bshieldnet://)
 
+More...
+
 ------------------------------------------------------------------------
 
 #### 🟢 Prince VPNs
@@ -101,6 +107,8 @@ Send a file with one of these extensions or prefixes:
 .4ulite (4ulite://)\
 .fnf (fnf://)
 
+More...
+
 ------------------------------------------------------------------------
 
 #### 🟡 Other Providers
@@ -110,6 +118,8 @@ Send a file with one of these extensions or prefixes:
 .int (intvpn://)\
 .maya\
 .eut (eut-settings://)
+
+More...
 
 ------------------------------------------------------------------------
 
