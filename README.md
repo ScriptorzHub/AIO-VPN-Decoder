@@ -1,45 +1,56 @@
 # 🚀 AIO VPN Decoder
 
-**AIO VPN Decoder** is a powerful all-in-one tool designed to decrypt
-and analyze various VPN configuration formats used across multiple
-tunneling applications.
+**AIO VPN Decoder** is a Telegram-based tool designed to decrypt and
+analyze various VPN configuration formats used across multiple tunneling
+applications.
 
 Built for flexibility and extensibility, this project supports a wide
-range of encrypted config formats and continues to grow with new
-integrations.
+range of encrypted config formats.
 
 ------------------------------------------------------------------------
 
 ## ✨ Features
 
 -   🔓 Decrypt multiple VPN config formats
--   ⚡ Fast and lightweight processing
--   🤖 Inspired by automated decoding workflows
--   📦 Supports dozens of popular VPN tools
--   🔄 Continuously updated with new formats
+-   🤖 Telegram bot integration
+-   📦 Supports many popular VPN tools
+-   ⚡ Fast and simple usage
+
+------------------------------------------------------------------------
+
+## 🤖 Usage (Telegram Bot)
+
+Send a supported config file or format to the bot, and it will decrypt
+it automatically.
+
+You can also add the bot to your group to decode files directly in
+chats.
+
+Use /formats to view supported formats\
+Use /start to view the welcome message
 
 ------------------------------------------------------------------------
 
 ## 📂 Supported Formats
 
-Send or load a file with any of the following extensions or URI schemes:
+Send a file with one of these extensions or prefixes:
 
 ### 🔹 Core Formats
 
--   HTTP Injector → .ehi, .ehil
--   HTTP Custom → .hc
--   NPV Tunnel → .npvt
--   DarkTunnel → .dark (darktunnel://)
--   TLS Tunnel → .tls
--   SSH Custom → .ssc (ssc://)
--   SocksIP → .sip
--   HA Tunnel → .hat
--   NetMod → .nm (nm-`<type>`{=html}://)
--   OpenTunnel → .tnl
--   SlipNet → .slipnet (slipnet://, slipnet-enc://)
--   LinkLayer → .lnk
--   Mina → .mina
--   EV2Ray → .v2
+-   EHI: .ehi, .ehil\
+-   HC: .hc\
+-   NPVT: .npvt\
+-   DARK: .dark (darktunnel://)\
+-   EV2RAY: .v2\
+-   SIP: .sip\
+-   HAT: .hat\
+-   NETMOD: .nm (nm-type://)\
+-   OPENTUNNEL: .tnl\
+-   SLIPNET: .slipnet (slipnet://, slipnet-enc://)\
+-   TLS: .tls\
+-   LINKLAYER: .lnk\
+-   MINA: .mina\
+-   SSC: .ssc (ssc://)
 
 ------------------------------------------------------------------------
 
@@ -47,31 +58,61 @@ Send or load a file with any of the following extensions or URI schemes:
 
 #### 🟣 Sandok VPNs
 
-.aura, .bcl, .bee, .btv, .eta, .fix, .glory, .marvs, .nur, .mdvpn, .md,
-.ost, .osv, .ry, .t20, .tik, .tsm, .tx, .ulti, .ultra, .vlx, .wolf, .mmt
-
-#### 🔵 Renz VPNs
-
-.tcx, .7net, .ihome, .xhypher, .izph, .osp, .bshield
-
-#### 🟢 Prince VPNs
-
-.apnalite, .bdnet, .hxt, .4ulite, .fnf
-
-#### 🟡 Other Providers
-
--   ZIV → .ziv (zivpn://)
--   WYR → .wyr (wyrvpn://)
--   INT → .int (intvpn://)
--   MAYA → .maya
--   EUT → .eut (eut-settings://)
+.aura (aura://)\
+.bcl (bcl://)\
+.bee (bee://)\
+.btv (btv://)\
+.eta (eta://)\
+.fix (fix://)\
+.glory (glory://)\
+.marvs (marvs://)\
+.nur (nur://)\
+.mdvpn (mdvpn://)\
+.md (md://)\
+.ost (ost://)\
+.osv (osv://)\
+.ry (ry://)\
+.t20 (t20://)\
+.tik (tik://)\
+.tsm (tsm://)\
+.tx (tx://)\
+.ulti (ulti://)\
+.ultra (ultra://)\
+.vlx (vlx://)\
+.wolf (wolf://)\
+.mmt (mmt://)
 
 ------------------------------------------------------------------------
 
-## 🤖 Inspired By
+#### 🔵 Renz VPNs
 
-**Scriptoolz Decrypt (Experimental)**\
-A Telegram-based decryptor bot supporting multiple VPN formats.
+.tcx (tcx://, tcxtunnelplus://)\
+.7net (7net://, 7netvpn://)\
+.ihome (ihome://, ihomevpn://)\
+.xhypher (xhypher://, xhyphertunnelpro://)\
+.izph (izph://, izphvpnpro://)\
+.osp (osp://, osptunnel://)\
+.bshield (bshield://, bshieldnet://)
+
+------------------------------------------------------------------------
+
+#### 🟢 Prince VPNs
+
+.apnalite (apnalite://)\
+.bdnet (bdnet://)\
+.hxt (hxt://)\
+.4ulite (4ulite://)\
+.fnf (fnf://)
+
+------------------------------------------------------------------------
+
+#### 🟡 Other Providers
+
+.ziv (zivpn://)\
+.wyr (wyrvpn://)\
+.int (intvpn://)\
+.maya\
+.eut (eut-settings://)
 
 ------------------------------------------------------------------------
 
@@ -83,39 +124,15 @@ A Telegram-based decryptor bot supporting multiple VPN formats.
 
 ------------------------------------------------------------------------
 
-## 🚧 Status
-
-This project is under active development.
-
-------------------------------------------------------------------------
-
-## 🛠️ Usage
-
-    git clone https://github.com/yourusername/aio-vpn-decoder.git
-    cd aio-vpn-decoder
-    python main.py <config_file>
-
-------------------------------------------------------------------------
-
-## 📌 Roadmap
-
--   Add more VPN formats\
--   Improve decryption speed\
--   GUI version\
--   API integration\
--   Batch processing
-
-------------------------------------------------------------------------
-
 ## ⚖️ Disclaimer
 
-For educational and research purposes only.
+This tool is for educational and research purposes only.
 
 ------------------------------------------------------------------------
 
 ## ⭐ Contributing
 
-Pull requests are welcome.
+Contributions are welcome.
 
 ------------------------------------------------------------------------
 
